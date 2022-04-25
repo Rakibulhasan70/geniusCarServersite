@@ -88,7 +88,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Running Genius Serverssss');
+    res.send('Running Genius Server');
 });
 
 app.listen(port, () => {
